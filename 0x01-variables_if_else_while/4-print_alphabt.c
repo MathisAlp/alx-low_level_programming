@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - Print the alphabet
+ *
+ * Return: Always O (success)
+ */
+int main(void)
+{
+	char alpha;
+
+	for (alpha = 'a'; alpha <= 'd'; alpha++)
+		putchar(alpha);
+
+	for (alpha = 'f'; alpha <= 'p'; alpha++)
+		putchar(alpha);
+
+	for (alpha = 'r'; alpha <= 'z'; alpha++)
+		putchar(alpha);
+	putchar('\n');
+	return (0);
+}
